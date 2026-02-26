@@ -32,6 +32,7 @@ Marp + Tailwind CSS (v3 CDN) + KaTeX によるスライド作成ワークフロ�
 16. SVG イラスト/ビジネス図表は `image-creator` スキルの仕様で生成する（技術図表は `svg-creator`）
 17. 1プレゼンテーション 12-20枚目安、1スライド = 1メッセージ
 18. プレゼン目的（research / business / technical / educational）に応じた構成テンプレートに従う
+19. `/doc-to-slide` は入力ドキュメントの情報充足度を診断し、不足情報を対話で補完する（ユーザーはスキップ可能）
 
 ## カラーパレット
 
