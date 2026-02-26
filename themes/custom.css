@@ -1,0 +1,54 @@
+/* @theme custom-slide */
+
+@import 'default';
+
+:root {
+  --color-navy: #1B4565;
+  --color-navy-light: #2A5F8F;
+  --color-teal: #3E9BA4;
+  --color-teal-light: #5BC0C8;
+  --color-slate: #64748B;
+  --color-dark-gray: #334155;
+  --color-light-gray: #94A3B8;
+  --color-gray-warm: #F5F5F0;
+}
+
+section {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+  color: var(--color-dark-gray);
+}
+
+section h1 {
+  color: var(--color-navy);
+}
+
+section h2 {
+  color: var(--color-navy);
+}
+
+section h3 {
+  color: var(--color-navy-light);
+}
+
+section a {
+  color: var(--color-teal);
+}
+
+/* Utility classes (Tailwind CDN fallback) */
+section .bg-navy { background-color: var(--color-navy); }
+section .bg-navy-light { background-color: var(--color-navy-light); }
+section .bg-teal { background-color: var(--color-teal); }
+section .bg-teal-light { background-color: var(--color-teal-light); }
+section .bg-gray-warm { background-color: var(--color-gray-warm); }
+
+section .text-navy { color: var(--color-navy); }
+section .text-navy-light { color: var(--color-navy-light); }
+section .text-teal { color: var(--color-teal); }
+section .text-teal-light { color: var(--color-teal-light); }
+section .text-slate { color: var(--color-slate); }
+section .text-white { color: #ffffff; }
+section .text-light-gray { color: var(--color-light-gray); }
+
+section .border-navy { border-color: var(--color-navy); }
+section .border-teal { border-color: var(--color-teal); }
+section .border-light-gray { border-color: var(--color-light-gray); }

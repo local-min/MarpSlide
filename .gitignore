@@ -1,0 +1,7 @@
+node_modules/
+output/*.html
+output/*.pdf
+output/*.pptx
+!output/.gitkeep
+slides/*.html
+.DS_Store

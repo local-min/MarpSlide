@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "marp-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["marp", "-s", "--html", "--no-stdin", "slides/"],
+      "port": 8080
+    },
+    {
+      "name": "marp-example",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["marp", "-s", "--html", "--no-stdin", "slides/"],
+      "port": 8080
+    }
+  ]
+}

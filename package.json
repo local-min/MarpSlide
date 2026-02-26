@@ -1,0 +1,21 @@
+{
+  "name": "marp-slide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marp slide creation workflow with Tailwind CSS and KaTeX",
+  "scripts": {
+    "preview": "marp -p --html slides/",
+    "preview:file": "marp -p --html",
+    "watch": "marp -w --html slides/",
+    "build:html": "marp --html -o output/ slides/",
+    "build:pdf": "marp --html --pdf --allow-local-files -o output/ slides/",
+    "build:pptx": "marp --html --pptx --allow-local-files -o output/ slides/",
+    "example": "marp -p --html slides/example.md",
+    "export:pdf": "marp --html --pdf --allow-local-files",
+    "export:html": "marp --html"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.3",
+    "@marp-team/marp-core": "^4.1.1"
+  }
+}
