@@ -7,9 +7,9 @@
     "preview": "marp -p --html slides/",
     "preview:file": "marp -p --html",
     "watch": "marp -w --html slides/",
-    "build:html": "marp --html -o output/ slides/",
-    "build:pdf": "marp --html --pdf --allow-local-files -o output/ slides/",
-    "build:pptx": "marp --html --pptx --allow-local-files -o output/ slides/",
+    "build:html": "marp --html --input-dir slides/ -o output/",
+    "build:pdf": "marp --html --pdf --allow-local-files --input-dir slides/ -o output/",
+    "build:pptx": "marp --html --pptx --allow-local-files --input-dir slides/ -o output/",
     "example": "marp -p --html slides/example.md",
     "export:pdf": "marp --html --pdf --allow-local-files",
     "export:html": "marp --html"
