@@ -25,6 +25,7 @@ tailwind.config = {
 }
 </script>
 
+<!-- Slide 1: Title -->
 <!-- _backgroundColor: #1B4565 -->
 <!-- _color: #ffffff -->
 <!-- _paginate: false -->
@@ -32,20 +33,22 @@ tailwind.config = {
 <!-- _footer: "" -->
 
 <div class="flex flex-col items-center justify-center h-full text-center">
-  <h1 class="text-5xl font-bold mb-4">Presentation Title</h1>
+  <h1 class="text-5xl font-bold mb-6">Presentation Title</h1>
   <p class="text-xl text-gray-300 mb-8">Subtitle describing the topic</p>
-  <p class="text-sm text-gray-400">Author Name -- 2026.02.25</p>
+  <p class="text-sm text-gray-400">Author Name -- 2026.02.27</p>
 </div>
 
 ---
 
-## First Section
+## First section has an action title as a complete sentence
 
-Content goes here.
+Content goes here. Use the body zone to present evidence supporting the action title.
 
-- First point
-- Second point
-- Third point
+- First point with supporting detail
+- Second point with supporting detail
+- Third point with supporting detail
+
+<p class="text-xs text-gray-400 mt-4">Source: Data source description, Year</p>
 
 ---
 
@@ -67,5 +70,6 @@ where $a$, $b$, and $c$ are coefficients of $ax^2 + bx + c = 0$.
 
 <div class="flex flex-col items-center justify-center h-full text-center">
   <h1 class="text-4xl font-bold mb-8">Thank You</h1>
+  <div class="w-16 h-1 bg-teal-light mb-8"></div>
   <p class="text-lg text-gray-300">Questions and Discussion</p>
 </div>

@@ -17,7 +17,7 @@ Marp + Tailwind CSS (v3 CDN) + KaTeX によるスライド作成ワークフロ�
 1. 新規スライドは `slides/template.md` をコピーして作成する
 2. frontmatter に `marp: true` と `math: katex` を必ず設定する
 3. Tailwind CDN のスクリプトブロック（`preflight: false` + カスタムカラー）を必ず含める
-4. `docs/style-guide.md` のカラーパレットとルールに従う
+4. `docs/style-guide.md` のカラーパレット・タイポグラフィ・スペーシングルールに従う
 5. `slides/example.md` の63パターン（10カテゴリ）からレイアウトを選択して使用する
 6. `<div>` 内に Markdown を書く場合、開始タグ直後と終了タグ直前に空行を入れる
 7. 1スライドあたりアクセントカラーは最大2色（通常 Navy + Teal）
@@ -33,6 +33,11 @@ Marp + Tailwind CSS (v3 CDN) + KaTeX によるスライド作成ワークフロ�
 17. 1プレゼンテーション 12-20枚目安、1スライド = 1メッセージ
 18. プレゼン目的（research / business / technical / educational）に応じた構成テンプレートに従う
 19. `/doc-to-slide` は入力ドキュメントの情報充足度を診断し、不足情報を対話で補完する（ユーザーはスキップ可能）
+20. h2 見出しはアクションタイトル（結論・示唆を完全な文で記す）にする。ラベル型見出しは避ける
+21. h2 見出し直後のコンテンツは `mt-4`（16px）の間隔を標準とする
+22. テーブルは Navy ヘッダー + Warm Gray ストライプ + 薄いボーダー（`border-b border-gray-100`）スタイルを使う
+23. 数値データを示すスライドには出典を明記する（`text-xs text-gray-400`）
+24. カード内パディングは `p-4` または `p-5` を標準とする
 
 ## カラーパレット
 
